@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../TEST_PowerBI_File.Dataset"
+    },
+    "byConnection": null
+  }
+}

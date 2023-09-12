@@ -1,0 +1,71 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.47\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"ee720d298bba12cf2103\",\"layouts\":[{\"id\":0,\"position\":{\"x\":267.73869346733665,\"y\":44.62311557788944,\"z\":0,\"width\":744.1206030150753,\"height\":558.3919597989949}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "height": 558.39,
+          "width": 744.12,
+          "x": 267.74,
+          "y": 44.62,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionfc35e80e0f9bb7de33ac",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 782.00,
+          "x": 10.00,
+          "y": 290.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"9dfbedbebf9e5971da1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.64824120603015,\"y\":0,\"z\":0,\"width\":781.5075376884422,\"height\":279.79899497487435,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"TESTING FILE\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"TESTING By adding a new line\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 279.80,
+          "width": 781.51,
+          "x": 9.65,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
