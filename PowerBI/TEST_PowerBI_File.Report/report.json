@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.47\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.47\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -56,7 +56,16 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"9dfbedbebf9e5971da1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.64824120603015,\"y\":0,\"z\":0,\"width\":781.5075376884422,\"height\":279.79899497487435,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"TESTING FILE\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"TESTING By adding a new line\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Testing for GitHub\"}]}]}}]}}}",
+          "config": "{\"name\":\"7a03cf0b009121019686\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802,\"y\":0,\"width\":478,\"height\":280,\"z\":1001,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.assetnum\"},{\"queryRef\":\"Sum(Query1.MinutesPerAssetnum)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"assetnum\"},\"Name\":\"Query1.assetnum\",\"NativeReferenceName\":\"assetnum\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0},\"Name\":\"Sum(Query1.MinutesPerAssetnum)\",\"NativeReferenceName\":\"Sum of MinutesPerAssetnum\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 478.00,
+          "x": 802.00,
+          "y": 0.00,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"9dfbedbebf9e5971da1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.64824120603015,\"y\":0,\"z\":0,\"width\":781.5075376884422,\"height\":279.79899497487435,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"TESTING FILE\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"TESTING By adding a new line\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Testing for GitHub\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
           "filters": "[]",
           "height": 279.80,
           "width": 781.51,
