@@ -56,13 +56,13 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"7a03cf0b009121019686\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802,\"y\":0,\"width\":478,\"height\":280,\"z\":1001,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.assetnum\"},{\"queryRef\":\"Sum(Query1.MinutesPerAssetnum)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"assetnum\"},\"Name\":\"Query1.assetnum\",\"NativeReferenceName\":\"assetnum\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0},\"Name\":\"Sum(Query1.MinutesPerAssetnum)\",\"NativeReferenceName\":\"Sum of MinutesPerAssetnum\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"7a03cf0b009121019686\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802,\"y\":0,\"width\":478,\"height\":280,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.assetnum\"},{\"queryRef\":\"Sum(Query1.MinutesPerAssetnum)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"assetnum\"},\"Name\":\"Query1.assetnum\",\"NativeReferenceName\":\"assetnum\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0},\"Name\":\"Sum(Query1.MinutesPerAssetnum)\",\"NativeReferenceName\":\"Sum of MinutesPerAssetnum\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 280.00,
           "width": 478.00,
           "x": 802.00,
           "y": 0.00,
-          "z": 1001.00
+          "z": 2000.00
         },
         {
           "config": "{\"name\":\"9dfbedbebf9e5971da1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.64824120603015,\"y\":0,\"z\":0,\"width\":781.5075376884422,\"height\":279.79899497487435,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"TESTING FILE\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"TESTING By adding a new line\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Testing for GitHub\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",

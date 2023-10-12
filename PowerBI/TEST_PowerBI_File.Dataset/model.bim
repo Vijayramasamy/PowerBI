@@ -267,12 +267,12 @@
         "name": "Query1",
         "annotations": [
           {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          },
-          {
             "name": "PBI_NavigationStepName",
             "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
           }
         ],
         "columns": [
@@ -355,6 +355,13 @@
           }
         ],
         "lineageTag": "3d25a09b-0aaf-47f8-be03-fd9d41e126d3",
+        "measures": [
+          {
+            "name": "Measure",
+            "expression": "STARTOFMONTH(\"12102023\")",
+            "lineageTag": "fa9ae52e-c2bf-4630-96e4-6295c51a36b7"
+          }
+        ],
         "partitions": [
           {
             "name": "Query1",
