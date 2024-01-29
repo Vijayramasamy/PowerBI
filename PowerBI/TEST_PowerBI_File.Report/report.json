@@ -47,7 +47,7 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#8\"}]}]}}]}}}",
+          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#8\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"1234\"}]}]}}]}}}",
           "filters": "[]",
           "height": 280.00,
           "width": 782.00,
@@ -56,7 +56,7 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"7a03cf0b009121019686\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802,\"y\":0,\"width\":478,\"height\":280,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.assetnum\"},{\"queryRef\":\"Sum(Query1.MinutesPerAssetnum)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"assetnum\"},\"Name\":\"Query1.assetnum\",\"NativeReferenceName\":\"assetnum\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0},\"Name\":\"Sum(Query1.MinutesPerAssetnum)\",\"NativeReferenceName\":\"Sum of MinutesPerAssetnum\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"7a03cf0b009121019686\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802,\"y\":0,\"width\":478,\"height\":280,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Query1.assetnum\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Query1.MinutesPerAssetnum)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"assetnum\"},\"Name\":\"Query1.assetnum\",\"NativeReferenceName\":\"assetnum\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0},\"Name\":\"Sum(Query1.MinutesPerAssetnum)\",\"NativeReferenceName\":\"Sum of MinutesPerAssetnum\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"MinutesPerAssetnum\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 280.00,
           "width": 478.00,
