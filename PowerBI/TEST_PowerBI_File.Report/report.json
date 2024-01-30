@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.47\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.47\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -39,6 +39,17 @@
     },
     {
       "config": "{}",
+      "displayName": "New tab",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionbee9e3c6b5c384205df5",
+      "ordinal": 2,
+      "visualContainers": [],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
       "displayName": "Page 2",
       "displayOption": 1,
       "filters": "[]",
@@ -47,7 +58,7 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#8\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"1234\"}]}]}}]}}}",
+          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#11\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Publishing to check the source control flowing in old projects and repos\"}]}]}}]}}}",
           "filters": "[]",
           "height": 280.00,
           "width": 782.00,
