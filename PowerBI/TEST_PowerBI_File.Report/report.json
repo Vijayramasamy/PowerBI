@@ -47,7 +47,7 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#8\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"1234\"}]}]}}]}}}",
+          "config": "{\"name\":\"589f46d074bc0f62c213\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":782,\"height\":280,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Testing a new push/pull for demo session  AB#11\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Publishing to check the source control flowing in old projects and repos\"}]}]}}]}}}",
           "filters": "[]",
           "height": 280.00,
           "width": 782.00,
